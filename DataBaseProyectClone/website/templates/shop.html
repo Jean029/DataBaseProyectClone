@@ -1,0 +1,15 @@
+{% extends 'BasePage.html' %}
+{% block title %}Nebula - Telescopes | Shop{% endblock title %}
+{% block banner %}Shop{% endblock banner %}
+{% block address %}Shop/{% endblock address %}
+
+{% block content %}
+<h1 align="center"> Products </h1>
+
+{% for product in products %}
+
+<p>Name: {{product[1]}}, Brand: {{product[2]}}, Price: {{product[3]}}</p>
+
+{% endfor %}
+
+{% endblock content %}
