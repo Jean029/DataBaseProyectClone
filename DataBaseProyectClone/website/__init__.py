@@ -4,10 +4,10 @@ def create_app():
     app = Flask(__name__)
     app.config['SECRET_KEY'] = 'secretkey'
     
-    from .views import views
+    from .frontend.controlers.views import views
     
     app.register_blueprint(views, url_prefix='/')
     
-    from .models import Products
+    from .frontend.models.models import Products
     
     return app

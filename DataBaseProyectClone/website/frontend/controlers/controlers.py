@@ -1,4 +1,4 @@
-from .models import Products
+from ..models.models import Products
 
 def ProductsList():
     product = []
