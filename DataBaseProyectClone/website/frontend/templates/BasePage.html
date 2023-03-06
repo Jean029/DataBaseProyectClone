@@ -94,8 +94,8 @@
                     <div class="header-widget-group">
                         <button class="header-widget header-cart" title="Cartlist">
                             <i class="fas fa-shopping-basket"></i>
-                            <sup> (put amount) </sup>
-                            <span>total price<small>$ (put total) 0</small></span>
+                            <sup> {% block cartAmount %}0{% endblock cartAmount %} </sup>
+                            <span>total price<small>$ {% block cartTotal %}0{% endblock cartTotal %}</small></span>
                         </button>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
             <div class="cart-footer">
                 <a class="cart-checkout-btn" href="checkout">
                     <span class="checkout-label">Proceed to Checkout</span>
-                    <span class="checkout-price">$total</span>
+                    <span class="checkout-price">${% block cartTotalInside %}0{% endblock cartTotalInside %}</span>
                 </a>
             </div>
         </aside>

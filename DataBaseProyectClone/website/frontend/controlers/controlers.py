@@ -11,6 +11,9 @@ def ProductsList():
                     Products.mount[index],
                     Products.aperture[index],
                     Products.focalDis[index],
-                    Products.price[index]]
+                    Products.price[index],
+                    Products.image[index],
+                    Products.stock[index],
+                    Products.state[index]]
         product.append(newProduct)
     return product
