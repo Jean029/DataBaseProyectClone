@@ -11,4 +11,4 @@ def shop():
     return render_template('shop.html', 
                            products = products,
                            cartProducts = cartProducts,
-                           cartTotal = cartTotal)
+                           cartTotal = cartTotal,)
