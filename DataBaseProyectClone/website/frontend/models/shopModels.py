@@ -2,9 +2,19 @@ from flask_login import UserMixin
 
 class Products():
     id = [1, 2, 3, 4, 5, 6]
-    name = ['Travel Scope', 'Astromaster', 'Advanced VX', 'Skyscanner 10012', 'Maksutov-Cassegrain Starmac', 'Astroview 9024']
+    name = ['Travel Scope', 
+            'Astromaster', 
+            'Advanced VX', 
+            'Skyscanner 10012', 
+            'Maksutov-Cassegrain Starmac', 
+            'Astroview 9024']
     brand = ['Celestron', 'Celestron', 'Celestron', 'Orion', 'Orion', 'Orion']
-    description = [' ', ' ', ' ', ' ', ' ', ' ']
+    description = [' ', 
+                   ' ', 
+                   ' ', 
+                   ' ', 
+                   ' ', 
+                   ' ']
     lens = ['Refractor', 'Reflector', 'Catadioptric', 'Reflector', 'Catadioptric', 'Refractor']
     mount = ['Altazimuth', 'Equatorial', 'Equatorial', 'Altazimuth', 'Altazimuth', 'Equatorial']
     aperture = [70, 130, 235, 100, 90, 90]

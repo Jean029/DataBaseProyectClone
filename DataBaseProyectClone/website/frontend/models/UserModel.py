@@ -12,6 +12,8 @@ class User():
     city = ['Hatillo', 'Arecibo', 'Fajardo']
     state = ['Puerto Rico', 'Puerto Rico', 'Puerto Rico']
     zipcode = ['00612','00610', '00651']
+
+class Paymets():
     card_name = ['Jean Rios', 'Ursula Lopez', 'Nebula Acevedo']
     card_type = ['Visa', 'Discover', 'Mastercard']
     card_num = ['1234123412341234','4567456745674567', '7896789678967896']
